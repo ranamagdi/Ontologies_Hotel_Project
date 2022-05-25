@@ -127,16 +127,31 @@
         <DataProperty IRI="#ID"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Marital_Status"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#Maximum_Capacity"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Mobile_Number"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#National_ID"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Number_of_Employees"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Password"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Person_Address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Person_age"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Pick_off"/>
@@ -2434,11 +2449,23 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#Marital_Status"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#Maximum_Capacity"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#Mobile_Number"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#Name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#National_ID"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -2447,6 +2474,14 @@
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#Password"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Person_Address"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Person_age"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -2594,6 +2629,10 @@
         <Class IRI="#Visa"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#Marital_Status"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#Maximum_Capacity"/>
         <Class IRI="#Department"/>
     </DataPropertyDomain>
@@ -2613,7 +2652,15 @@
         </DataSomeValuesFrom>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#Mobile_Number"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#Name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#National_ID"/>
         <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -2638,6 +2685,14 @@
     <DataPropertyDomain>
         <DataProperty IRI="#Password"/>
         <Class IRI="#Visa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Person_Address"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Person_age"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Pick_off"/>
@@ -2874,12 +2929,24 @@
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#Marital_Status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#Maximum_Capacity"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#Mobile_Number"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#Name"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#National_ID"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#Number_of_Employees"/>
@@ -2888,6 +2955,14 @@
     <DataPropertyRange>
         <DataProperty IRI="#Password"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Person_Address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Person_age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#Pick_off"/>
