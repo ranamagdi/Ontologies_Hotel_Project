@@ -6,7 +6,7 @@ This is a case study for an Hotel ontology design . where show how the Hotel sys
 1. RDF.<br>
 2. OWL.<br>
 3. Sample Queries and its result.<br>
-## 3. The implementaion:
+## 3. The implementation:
 It was implemented on Portege , A free,open-source ontology editor and framework for building intelligent systems.
 ## 4. The outputs:
 1. RDF and the classes,data properties and object properties description on "Hotel RDF Graph-merged.pdf".
