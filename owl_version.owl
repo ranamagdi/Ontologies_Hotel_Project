@@ -1,0 +1,2957 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/vip/ontologies/2022/3/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/vip/ontologies/2022/3/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/vip/ontologies/2022/3/untitled-ontology-2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Adults"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aqua_park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Children"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House_keeping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rooms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#check_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#check_out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#payment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wifi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Amenities"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Assigned_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Consists_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Escort"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Works_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reservation_details"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Avg.salary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Floor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Floor_number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Maximum_Capacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Number_of_Employees"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Password"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Pick_off"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Pick_up"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Receipt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Room_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Salary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ticket"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#View"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#check_in_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#check_out_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contact"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#depth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#password"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stars"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#total_amount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AquaPark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cash1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cash2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cash3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cash4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cash5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Children1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Children2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guest9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HouseKeeping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manager1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manager2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manager3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manager4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payment9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pool1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pool2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pool3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reception"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Room9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transportation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visa1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visa2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visa3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visa4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visa5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wifi1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wifi2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wifi3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wifi4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wifi5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adults"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cash"/>
+        <Class IRI="#payment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Children"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Department"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#managed_by"/>
+            <Class IRI="#Manager"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#Works_at"/>
+            <Class IRI="#Department"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#contain"/>
+            <Class IRI="#Employee"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guest"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guest"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#reservation_details"/>
+            <Class IRI="#check_in"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guest"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#reservation_details"/>
+            <Class IRI="#check_out"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guest"/>
+        <ObjectMaxCardinality cardinality="2">
+            <ObjectProperty IRI="#Escort"/>
+            <Class IRI="#Adults"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guest"/>
+        <ObjectMaxCardinality cardinality="2">
+            <ObjectProperty IRI="#Escort"/>
+            <Class IRI="#Children"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectMinCardinality cardinality="5">
+            <ObjectProperty IRI="#Amenities"/>
+            <Class IRI="#wifi"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectMinCardinality cardinality="10">
+            <ObjectProperty IRI="#Consists_of"/>
+            <Class IRI="#Rooms"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#Amenities"/>
+            <Class IRI="#Aqua_park"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#Amenities"/>
+            <Class IRI="#Parking"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="#Amenities"/>
+            <Class IRI="#pool"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectMaxCardinality cardinality="300">
+            <ObjectProperty IRI="#Consists_of"/>
+            <Class IRI="#Rooms"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House_keeping"/>
+        <Class IRI="#Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House_keeping"/>
+        <ObjectMaxCardinality cardinality="30">
+            <ObjectProperty IRI="#contain"/>
+            <Class IRI="#Employee"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manager"/>
+        <Class IRI="#Employee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception"/>
+        <Class IRI="#Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception"/>
+        <ObjectMinCardinality cardinality="3">
+            <ObjectProperty IRI="#contain"/>
+            <Class IRI="#Employee"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception"/>
+        <ObjectMaxCardinality cardinality="5">
+            <ObjectProperty IRI="#contain"/>
+            <Class IRI="#Employee"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <Class IRI="#Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <ObjectMinCardinality cardinality="3">
+            <ObjectProperty IRI="#contain"/>
+            <Class IRI="#Employee"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <ObjectMaxCardinality cardinality="8">
+            <ObjectProperty IRI="#contain"/>
+            <Class IRI="#Employee"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visa"/>
+        <Class IRI="#payment"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adults"/>
+        <NamedIndividual IRI="#Adult9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aqua_park"/>
+        <NamedIndividual IRI="#AquaPark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cash"/>
+        <NamedIndividual IRI="#Cash1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cash"/>
+        <NamedIndividual IRI="#Cash2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cash"/>
+        <NamedIndividual IRI="#Cash3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cash"/>
+        <NamedIndividual IRI="#Cash4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cash"/>
+        <NamedIndividual IRI="#Cash5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Children"/>
+        <NamedIndividual IRI="#Children1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Children"/>
+        <NamedIndividual IRI="#Children2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee"/>
+        <NamedIndividual IRI="#Employee9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Food"/>
+        <NamedIndividual IRI="#Food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Guest9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House_keeping"/>
+        <NamedIndividual IRI="#HouseKeeping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manager"/>
+        <NamedIndividual IRI="#Manager1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manager"/>
+        <NamedIndividual IRI="#Manager2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manager"/>
+        <NamedIndividual IRI="#Manager3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manager"/>
+        <NamedIndividual IRI="#Manager4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parking"/>
+        <NamedIndividual IRI="#Parking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#payment"/>
+        <NamedIndividual IRI="#Payment9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pool"/>
+        <NamedIndividual IRI="#Pool1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pool"/>
+        <NamedIndividual IRI="#Pool2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pool"/>
+        <NamedIndividual IRI="#Pool3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reception"/>
+        <NamedIndividual IRI="#Reception"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rooms"/>
+        <NamedIndividual IRI="#Room9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Security"/>
+        <NamedIndividual IRI="#Security"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transportation"/>
+        <NamedIndividual IRI="#Transportation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visa"/>
+        <NamedIndividual IRI="#Visa1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visa"/>
+        <NamedIndividual IRI="#Visa2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visa"/>
+        <NamedIndividual IRI="#Visa3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visa"/>
+        <NamedIndividual IRI="#Visa4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visa"/>
+        <NamedIndividual IRI="#Visa5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wifi"/>
+        <NamedIndividual IRI="#Wifi1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wifi"/>
+        <NamedIndividual IRI="#Wifi2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wifi"/>
+        <NamedIndividual IRI="#Wifi3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wifi"/>
+        <NamedIndividual IRI="#Wifi4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wifi"/>
+        <NamedIndividual IRI="#Wifi5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#hotel"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Cash1"/>
+        <NamedIndividual IRI="#Payment1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Cash2"/>
+        <NamedIndividual IRI="#Payment2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Cash3"/>
+        <NamedIndividual IRI="#Payment3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Cash4"/>
+        <NamedIndividual IRI="#Payment4"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Cash5"/>
+        <NamedIndividual IRI="#Payment5"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Employee1"/>
+        <NamedIndividual IRI="#Manager1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Employee4"/>
+        <NamedIndividual IRI="#Manager2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Employee7"/>
+        <NamedIndividual IRI="#Manager3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Employee9"/>
+        <NamedIndividual IRI="#Manager4"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Payment10"/>
+        <NamedIndividual IRI="#Visa5"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Payment6"/>
+        <NamedIndividual IRI="#Visa1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Payment7"/>
+        <NamedIndividual IRI="#Visa2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Payment8"/>
+        <NamedIndividual IRI="#Visa3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Payment9"/>
+        <NamedIndividual IRI="#Visa4"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <NamedIndividual IRI="#Reception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee10"/>
+        <NamedIndividual IRI="#Food"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee2"/>
+        <NamedIndividual IRI="#Reception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee3"/>
+        <NamedIndividual IRI="#Reception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee4"/>
+        <NamedIndividual IRI="#Security"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee5"/>
+        <NamedIndividual IRI="#Security"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee6"/>
+        <NamedIndividual IRI="#Security"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee7"/>
+        <NamedIndividual IRI="#HouseKeeping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee8"/>
+        <NamedIndividual IRI="#HouseKeeping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Works_at"/>
+        <NamedIndividual IRI="#Employee9"/>
+        <NamedIndividual IRI="#Food"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#managed_by"/>
+        <NamedIndividual IRI="#Food"/>
+        <NamedIndividual IRI="#Manager3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest1"/>
+        <NamedIndividual IRI="#Adult1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest1"/>
+        <NamedIndividual IRI="#Payment1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest1"/>
+        <NamedIndividual IRI="#check_in1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest1"/>
+        <NamedIndividual IRI="#check_out1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest10"/>
+        <NamedIndividual IRI="#Adult8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest10"/>
+        <NamedIndividual IRI="#Payment7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest10"/>
+        <NamedIndividual IRI="#check_in10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest10"/>
+        <NamedIndividual IRI="#check_out10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest11"/>
+        <NamedIndividual IRI="#Adult9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest11"/>
+        <NamedIndividual IRI="#Payment8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest11"/>
+        <NamedIndividual IRI="#check_in11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest12"/>
+        <NamedIndividual IRI="#Adult10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest12"/>
+        <NamedIndividual IRI="#Payment9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest12"/>
+        <NamedIndividual IRI="#check_in12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest13"/>
+        <NamedIndividual IRI="#Adult11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest13"/>
+        <NamedIndividual IRI="#Payment10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest13"/>
+        <NamedIndividual IRI="#check_in13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest2"/>
+        <NamedIndividual IRI="#Children1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest2"/>
+        <NamedIndividual IRI="#check_in2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest2"/>
+        <NamedIndividual IRI="#check_out2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest3"/>
+        <NamedIndividual IRI="#Adult2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest3"/>
+        <NamedIndividual IRI="#Payment2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest3"/>
+        <NamedIndividual IRI="#check_in3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest3"/>
+        <NamedIndividual IRI="#check_out3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest4"/>
+        <NamedIndividual IRI="#Children2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest4"/>
+        <NamedIndividual IRI="#check_in4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest4"/>
+        <NamedIndividual IRI="#check_out4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest5"/>
+        <NamedIndividual IRI="#Adult3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest5"/>
+        <NamedIndividual IRI="#Payment3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest5"/>
+        <NamedIndividual IRI="#check_in5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest5"/>
+        <NamedIndividual IRI="#check_out5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest6"/>
+        <NamedIndividual IRI="#Adult4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest6"/>
+        <NamedIndividual IRI="#check_in6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest6"/>
+        <NamedIndividual IRI="#check_out6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest7"/>
+        <NamedIndividual IRI="#Adult5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest7"/>
+        <NamedIndividual IRI="#Payment4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest7"/>
+        <NamedIndividual IRI="#check_in7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest7"/>
+        <NamedIndividual IRI="#check_out7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest8"/>
+        <NamedIndividual IRI="#Adult6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest8"/>
+        <NamedIndividual IRI="#Payment5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest8"/>
+        <NamedIndividual IRI="#check_in8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest8"/>
+        <NamedIndividual IRI="#check_out8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escort"/>
+        <NamedIndividual IRI="#Guest9"/>
+        <NamedIndividual IRI="#Adult7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pays"/>
+        <NamedIndividual IRI="#Guest9"/>
+        <NamedIndividual IRI="#Payment6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest9"/>
+        <NamedIndividual IRI="#check_in9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest9"/>
+        <NamedIndividual IRI="#check_out9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#managed_by"/>
+        <NamedIndividual IRI="#HouseKeeping"/>
+        <NamedIndividual IRI="#Manager1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Payment2"/>
+        <NamedIndividual IRI="#check_out3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#managed_by"/>
+        <NamedIndividual IRI="#Reception"/>
+        <NamedIndividual IRI="#Manager4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room1"/>
+        <NamedIndividual IRI="#Guest1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room1"/>
+        <NamedIndividual IRI="#Guest2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room10"/>
+        <NamedIndividual IRI="#Guest13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room2"/>
+        <NamedIndividual IRI="#Guest3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room2"/>
+        <NamedIndividual IRI="#Guest4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room3"/>
+        <NamedIndividual IRI="#Guest5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room3"/>
+        <NamedIndividual IRI="#Guest6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room4"/>
+        <NamedIndividual IRI="#Guest7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room5"/>
+        <NamedIndividual IRI="#Guest8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room6"/>
+        <NamedIndividual IRI="#Guest9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room7"/>
+        <NamedIndividual IRI="#Guest10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room8"/>
+        <NamedIndividual IRI="#Guest11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <NamedIndividual IRI="#Room9"/>
+        <NamedIndividual IRI="#Guest12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#managed_by"/>
+        <NamedIndividual IRI="#Security"/>
+        <NamedIndividual IRI="#Manager2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#AquaPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Parking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Pool1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Pool2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Pool3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Room9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Transportation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Wifi1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Wifi2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Wifi3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Wifi4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Amenities"/>
+        <NamedIndividual IRI="#hotel"/>
+        <NamedIndividual IRI="#Wifi5"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#AquaPark"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#total_amount"/>
+        <NamedIndividual IRI="#Cash1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">450.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#total_amount"/>
+        <NamedIndividual IRI="#Cash2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#total_amount"/>
+        <NamedIndividual IRI="#Cash3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#total_amount"/>
+        <NamedIndividual IRI="#Cash4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#total_amount"/>
+        <NamedIndividual IRI="#Cash5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">12000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">40000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">50000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">40000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Employee9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Avg.salary"/>
+        <NamedIndividual IRI="#Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Maximum_Capacity"/>
+        <NamedIndividual IRI="#Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Employees"/>
+        <NamedIndividual IRI="#Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Avg.salary"/>
+        <NamedIndividual IRI="#HouseKeeping"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Maximum_Capacity"/>
+        <NamedIndividual IRI="#HouseKeeping"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Employees"/>
+        <NamedIndividual IRI="#HouseKeeping"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor"/>
+        <NamedIndividual IRI="#Parking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ticket"/>
+        <NamedIndividual IRI="#Parking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Receipt"/>
+        <NamedIndividual IRI="#Payment9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#depth"/>
+        <NamedIndividual IRI="#Pool1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#depth"/>
+        <NamedIndividual IRI="#Pool2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#depth"/>
+        <NamedIndividual IRI="#Pool3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Avg.salary"/>
+        <NamedIndividual IRI="#Reception"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Maximum_Capacity"/>
+        <NamedIndividual IRI="#Reception"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Employees"/>
+        <NamedIndividual IRI="#Reception"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">50.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room1"/>
+        <Literal>Garden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">150.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room10"/>
+        <Literal>Garden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room2"/>
+        <Literal>Sea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room3"/>
+        <Literal>Sea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room4"/>
+        <Literal>Sea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room5"/>
+        <Literal>Pool</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room6"/>
+        <Literal>Pool</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">900.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room7"/>
+        <Literal>Pool</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1300.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room8"/>
+        <Literal>Pool</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Floor_number"/>
+        <NamedIndividual IRI="#Room9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Room9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2300.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Room_ID"/>
+        <NamedIndividual IRI="#Room9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#View"/>
+        <NamedIndividual IRI="#Room9"/>
+        <Literal>Sea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Avg.salary"/>
+        <NamedIndividual IRI="#Security"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Maximum_Capacity"/>
+        <NamedIndividual IRI="#Security"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Employees"/>
+        <NamedIndividual IRI="#Security"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pick_off"/>
+        <NamedIndividual IRI="#Transportation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-24T16:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pick_up"/>
+        <NamedIndividual IRI="#Transportation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Visa1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Password"/>
+        <NamedIndividual IRI="#Visa1"/>
+        <Literal>Visa1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Visa2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Password"/>
+        <NamedIndividual IRI="#Visa2"/>
+        <Literal>Visa2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Visa3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Password"/>
+        <NamedIndividual IRI="#Visa3"/>
+        <Literal>Visa3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Visa4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Password"/>
+        <NamedIndividual IRI="#Visa4"/>
+        <Literal>Visa4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Visa5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Password"/>
+        <NamedIndividual IRI="#Visa5"/>
+        <Literal>Visa5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#password"/>
+        <NamedIndividual IRI="#Wifi1"/>
+        <Literal>wifi1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#password"/>
+        <NamedIndividual IRI="#Wifi2"/>
+        <Literal>wifi2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#password"/>
+        <NamedIndividual IRI="#Wifi3"/>
+        <Literal>wifi3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#password"/>
+        <NamedIndividual IRI="#Wifi4"/>
+        <Literal>wifi4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#password"/>
+        <NamedIndividual IRI="#Wifi5"/>
+        <Literal>wifi5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_in11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_in12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_in13"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-12T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Address"/>
+        <NamedIndividual IRI="#hotel"/>
+        <Literal>Hurghada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contact"/>
+        <NamedIndividual IRI="#hotel"/>
+        <Literal>website</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#stars"/>
+        <NamedIndividual IRI="#hotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Amenities"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Consists_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Escort"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Works_at"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contain"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#managed_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#pays"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#reservation_details"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#Hotel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <Class IRI="#Rooms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Consists_of"/>
+        <Class IRI="#Hotel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Escort"/>
+        <Class IRI="#Guest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Works_at"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contain"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#managed_by"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pays"/>
+        <Class IRI="#Guest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reservation_details"/>
+        <Class IRI="#Guest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#Aqua_park"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#Parking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#Transportation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#pool"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#wifi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <Class IRI="#Guest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Consists_of"/>
+        <Class IRI="#Rooms"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Escort"/>
+        <Class IRI="#Adults"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Escort"/>
+        <Class IRI="#Children"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Works_at"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contain"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#managed_by"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pays"/>
+        <Class IRI="#payment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reservation_details"/>
+        <Class IRI="#check_in"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reservation_details"/>
+        <Class IRI="#check_out"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Address"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Avg.salary"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Floor"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Floor_number"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Maximum_Capacity"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Number_of_Employees"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Password"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Pick_off"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Pick_up"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Price"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Receipt"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Room_ID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Salary"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Ticket"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#View"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#check_in_date"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#check_out_date"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#contact"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#depth"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#password"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#stars"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#total_amount"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Address"/>
+        <Class IRI="#Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Aqua_park"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Age"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Avg.salary"/>
+        <Class IRI="#Department"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Avg.salary"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Avg.salary"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:double"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20000.0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">80000.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Floor"/>
+        <Class IRI="#Parking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Floor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Floor"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-7</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Floor_number"/>
+        <Class IRI="#Rooms"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Floor_number"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Floor_number"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#Visa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Maximum_Capacity"/>
+        <Class IRI="#Department"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Maximum_Capacity"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Maximum_Capacity"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2000</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Number_of_Employees"/>
+        <Class IRI="#Department"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Number_of_Employees"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Number_of_Employees"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Password"/>
+        <Class IRI="#Visa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Pick_off"/>
+        <Class IRI="#Transportation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Pick_up"/>
+        <Class IRI="#payment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Price"/>
+        <Class IRI="#Rooms"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Price"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Price"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:double"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">50.0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3000.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Receipt"/>
+        <Class IRI="#payment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Receipt"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Receipt"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10000000</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Room_ID"/>
+        <Class IRI="#Rooms"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Room_ID"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Room_ID"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Salary"/>
+        <Class IRI="#Employee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Salary"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Salary"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:double"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">100000.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ticket"/>
+        <Class IRI="#Parking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ticket"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Ticket"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#View"/>
+        <Class IRI="#Rooms"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#View"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#View"/>
+                <Literal>Garden</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#View"/>
+                <Literal>Pool</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#View"/>
+                <Literal>Sea</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#check_in_date"/>
+        <Class IRI="#check_in"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#check_out_date"/>
+        <Class IRI="#check_out"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contact"/>
+        <Class IRI="#Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contact"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#contact"/>
+                <Literal>hot-line</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#contact"/>
+                <Literal>website</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#depth"/>
+        <Class IRI="#pool"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#depth"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#depth"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:double"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.2</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#password"/>
+        <Class IRI="#wifi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#stars"/>
+        <Class IRI="#Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#stars"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#stars"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#total_amount"/>
+        <Class IRI="#Cash"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#total_amount"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#total_amount"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:double"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.1</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1000000.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Avg.salary"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Floor"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Floor_number"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ID"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Maximum_Capacity"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Number_of_Employees"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Password"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Pick_off"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Pick_up"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Price"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Receipt"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Room_ID"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Salary"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Ticket"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#View"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#check_in_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#check_out_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#contact"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#depth"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#password"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#stars"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#total_amount"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
