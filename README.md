@@ -11,4 +11,4 @@ It was implemented on Portege , A free,open-source ontology editor and framework
 ## 4. The outputs:
 1. RDF and the classes,data properties and object properties description on "Hotel RDF Graph-merged.pdf".
 2. OWL creation in "owl_version.owl".
-3. sparql queries 
+3. sparql queries creation in "sparql.docx".or you can get the owl with sparql version in Project.owl
