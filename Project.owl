@@ -67,6 +67,12 @@
         <Class IRI="#Visa"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#check_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#check_out"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#payment"/>
     </Declaration>
     <Declaration>
@@ -88,12 +94,6 @@
         <ObjectProperty IRI="#Escort"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Status"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Type"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#Works_at"/>
     </Declaration>
     <Declaration>
@@ -104,6 +104,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#pays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reservation_details"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Address"/>
@@ -182,6 +185,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#depth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#person_age"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#stars"/>
@@ -446,6 +452,75 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wifi5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_in9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#check_out9"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#hotel"/>
@@ -947,6 +1022,98 @@
         <NamedIndividual IRI="#Wifi5"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_in"/>
+        <NamedIndividual IRI="#check_in9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#check_out"/>
+        <NamedIndividual IRI="#check_out9"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Hotel"/>
         <NamedIndividual IRI="#hotel"/>
     </ClassAssertion>
@@ -1072,6 +1239,16 @@
         <NamedIndividual IRI="#Payment1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest1"/>
+        <NamedIndividual IRI="#check_in1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest1"/>
+        <NamedIndividual IRI="#check_out1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
         <NamedIndividual IRI="#Guest10"/>
         <NamedIndividual IRI="#Adult8"/>
@@ -1080,6 +1257,16 @@
         <ObjectProperty IRI="#pays"/>
         <NamedIndividual IRI="#Guest10"/>
         <NamedIndividual IRI="#Payment7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest10"/>
+        <NamedIndividual IRI="#check_in10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest10"/>
+        <NamedIndividual IRI="#check_out10"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
@@ -1092,6 +1279,11 @@
         <NamedIndividual IRI="#Payment8"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest11"/>
+        <NamedIndividual IRI="#check_in11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
         <NamedIndividual IRI="#Guest12"/>
         <NamedIndividual IRI="#Adult10"/>
@@ -1100,6 +1292,11 @@
         <ObjectProperty IRI="#pays"/>
         <NamedIndividual IRI="#Guest12"/>
         <NamedIndividual IRI="#Payment9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest12"/>
+        <NamedIndividual IRI="#check_in12"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
@@ -1112,9 +1309,24 @@
         <NamedIndividual IRI="#Payment10"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest13"/>
+        <NamedIndividual IRI="#check_in13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
         <NamedIndividual IRI="#Guest2"/>
         <NamedIndividual IRI="#Children1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest2"/>
+        <NamedIndividual IRI="#check_in2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest2"/>
+        <NamedIndividual IRI="#check_out2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
@@ -1127,9 +1339,29 @@
         <NamedIndividual IRI="#Payment2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest3"/>
+        <NamedIndividual IRI="#check_in3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest3"/>
+        <NamedIndividual IRI="#check_out3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
         <NamedIndividual IRI="#Guest4"/>
         <NamedIndividual IRI="#Children2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest4"/>
+        <NamedIndividual IRI="#check_in4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest4"/>
+        <NamedIndividual IRI="#check_out4"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
@@ -1142,9 +1374,29 @@
         <NamedIndividual IRI="#Payment3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest5"/>
+        <NamedIndividual IRI="#check_in5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest5"/>
+        <NamedIndividual IRI="#check_out5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
         <NamedIndividual IRI="#Guest6"/>
         <NamedIndividual IRI="#Adult4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest6"/>
+        <NamedIndividual IRI="#check_in6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest6"/>
+        <NamedIndividual IRI="#check_out6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
@@ -1157,6 +1409,16 @@
         <NamedIndividual IRI="#Payment4"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest7"/>
+        <NamedIndividual IRI="#check_in7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest7"/>
+        <NamedIndividual IRI="#check_out7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
         <NamedIndividual IRI="#Guest8"/>
         <NamedIndividual IRI="#Adult6"/>
@@ -1167,6 +1429,16 @@
         <NamedIndividual IRI="#Payment5"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest8"/>
+        <NamedIndividual IRI="#check_in8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest8"/>
+        <NamedIndividual IRI="#check_out8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#Escort"/>
         <NamedIndividual IRI="#Guest9"/>
         <NamedIndividual IRI="#Adult7"/>
@@ -1175,6 +1447,11 @@
         <ObjectProperty IRI="#pays"/>
         <NamedIndividual IRI="#Guest9"/>
         <NamedIndividual IRI="#Payment6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reservation_details"/>
+        <NamedIndividual IRI="#Guest9"/>
+        <NamedIndividual IRI="#check_out9"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#managed_by"/>
@@ -2072,6 +2349,121 @@
         <Literal>wifi5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-20T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in13"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-12T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_in_date"/>
+        <NamedIndividual IRI="#check_in9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#check_out_date"/>
+        <NamedIndividual IRI="#check_out9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-24T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Address"/>
         <NamedIndividual IRI="#hotel"/>
         <Literal>Hurghada</Literal>
@@ -2103,14 +2495,6 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#Status"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#Type"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#Works_at"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
@@ -2126,6 +2510,22 @@
         <ObjectProperty IRI="#pays"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#reservation_details"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#Hotel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <Class IRI="#Rooms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Consists_of"/>
+        <Class IRI="#Hotel"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Escort"/>
         <Class IRI="#Guest"/>
@@ -2146,6 +2546,38 @@
         <ObjectProperty IRI="#pays"/>
         <Class IRI="#Guest"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reservation_details"/>
+        <Class IRI="#Guest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#Aqua_park"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#Parking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#Transportation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#pool"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amenities"/>
+        <Class IRI="#wifi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Assigned_to"/>
+        <Class IRI="#Guest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Consists_of"/>
+        <Class IRI="#Rooms"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#Escort"/>
         <Class IRI="#Adults"/>
@@ -2169,6 +2601,14 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#pays"/>
         <Class IRI="#payment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reservation_details"/>
+        <Class IRI="#check_in"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reservation_details"/>
+        <Class IRI="#check_out"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#Address"/>
@@ -2271,6 +2711,10 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#person_age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#stars"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -2367,6 +2811,10 @@
         <Class IRI="#Visa"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#MaritalStatus"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#Maximum_Capacity"/>
         <Class IRI="#Department"/>
     </DataPropertyDomain>
@@ -2386,7 +2834,15 @@
         </DataSomeValuesFrom>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#MobileNumber"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#Name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#National_ID"/>
         <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -2411,6 +2867,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#Password"/>
         <Class IRI="#Visa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Person_Address"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Pick_off"/>
@@ -2537,6 +2997,14 @@
         </ObjectUnionOf>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#check_in_date"/>
+        <Class IRI="#check_in"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#check_out_date"/>
+        <Class IRI="#check_out"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#contact"/>
         <Class IRI="#Hotel"/>
     </DataPropertyDomain>
@@ -2571,6 +3039,10 @@
                 </FacetRestriction>
             </DatatypeRestriction>
         </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#person_age"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#stars"/>
@@ -2639,12 +3111,24 @@
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#MaritalStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#Maximum_Capacity"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#MobileNumber"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#Name"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#National_ID"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#Number_of_Employees"/>
@@ -2652,6 +3136,10 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#Password"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Person_Address"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -2687,12 +3175,24 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#check_in_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#check_out_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#contact"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#depth"/>
         <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#person_age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#stars"/>
