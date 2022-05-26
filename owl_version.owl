@@ -190,13 +190,13 @@
         <DataProperty IRI="#depth"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#password"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#stars"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#total_amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wifi_password"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Adult1"/>
@@ -2138,31 +2138,6 @@
         <Literal>Visa5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#password"/>
-        <NamedIndividual IRI="#Wifi1"/>
-        <Literal>wifi1</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#password"/>
-        <NamedIndividual IRI="#Wifi2"/>
-        <Literal>wifi2</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#password"/>
-        <NamedIndividual IRI="#Wifi3"/>
-        <Literal>wifi3</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#password"/>
-        <NamedIndividual IRI="#Wifi4"/>
-        <Literal>wifi4</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#password"/>
-        <NamedIndividual IRI="#Wifi5"/>
-        <Literal>wifi5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#check_in_date"/>
         <NamedIndividual IRI="#check_in1"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-24T10:00:00</Literal>
@@ -2533,15 +2508,15 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#password"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#stars"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#total_amount"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#wifi_password"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
@@ -2863,10 +2838,6 @@
         </DataSomeValuesFrom>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#password"/>
-        <Class IRI="#wifi"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#stars"/>
         <Class IRI="#Hotel"/>
     </DataPropertyDomain>
@@ -2903,6 +2874,10 @@
                 </FacetRestriction>
             </DatatypeRestriction>
         </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wifi_password"/>
+        <Class IRI="#wifi"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#Address"/>
@@ -3013,16 +2988,16 @@
         <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#password"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
         <DataProperty IRI="#stars"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#total_amount"/>
         <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wifi_password"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
 </Ontology>
 
